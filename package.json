@@ -23,7 +23,8 @@
     "clear": "rimraf build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "no-unused-vars": "off"
   },
   "browserslist": {
     "production": [
