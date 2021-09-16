@@ -1,8 +1,5 @@
 import React from 'react';
-// import { Switch, Route } from 'react-router-dom';
-import Nav from './Nav';
-// import Home from './pages/Home';
-// import Starred from './pages/Starred';
+import Navs from './Navs';
 import Title from './Title';
 
 const MainPageLayout = ({ children }) => {
@@ -12,7 +9,8 @@ const MainPageLayout = ({ children }) => {
         title="Box Office"
         subtitle="Are you looking for a movie or an actor?"
       />
-      <Nav />
+      <Navs />
+
       {children}
     </div>
   );
